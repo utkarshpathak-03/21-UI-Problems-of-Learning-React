@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  height: 100vh;
+  /* background: linear-gradient(3deg, black, transparent); */
+  background-image: url("./assets/chess.jpg");
+  overflow-y: hidden;
+  background-size: contain;
+}
