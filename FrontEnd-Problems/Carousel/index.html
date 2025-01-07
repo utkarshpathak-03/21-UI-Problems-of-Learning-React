@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="slideShowContainer">
+      <div class="mySlides">
+        <p class="number">1/3</p>
+        <img src="./assets/scenery-1.jpeg" alt="Scenery-1" />
+        <p class="title">Scenery 1</p>
+      </div>
+      <div class="mySlides">
+        <p class="number">2/3</p>
+        <img src="./assets/scenery-2.jpeg" alt="Scenery-2" />
+        <p class="title">Scenery 2</p>
+      </div>
+      <div class="mySlides">
+        <p class="number">3/3</p>
+        <img src="./assets/scenery-3.jpeg" alt="Scenery-3" />
+        <p class="title">Scenery 3</p>
+      </div>
+      <a class="prev" onclick="goTo(-1)">❮</a>
+      <a class="next" onclick="goTo(+1)">❯</a>
+    </div>
+    <div class="dotContainer">
+      <span onclick="goToCurrent(1)" class="dots"></span>
+      <span onclick="goToCurrent(2)" class="dots"></span>
+      <span onclick="goToCurrent(3)" class="dots"></span>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

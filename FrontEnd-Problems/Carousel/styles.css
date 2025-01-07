@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+.slideShowContainer {
+  overflow-y: hidden;
+  color: white;
+}
+.mySlides {
+  width: 100%;
+  overflow-x: hidden;
+  height: 800px;
+}
+img {
+  height: 700px;
+  width: 100%;
+}
+.prev,
+.next {
+  cursor: pointer;
+  line-height: 2rem;
+  font-size: 24px;
+  color: inherit;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+}
+
+.number {
+  position: absolute;
+  left: 50%;
+  font-size: 18px;
+}
+.title {
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+}
+.dots {
+  display: block;
+  height: 15px;
+  margin: 10px;
+  width: 15px;
+  border-radius: 100px;
+  background: gray;
+  cursor: pointer;
+}
+.dotContainer {
+  position: absolute;
+  left: 49%;
+  bottom: 5%;
+  display: flex;
+  /* transform: translate(-50%, -20%); */
+}

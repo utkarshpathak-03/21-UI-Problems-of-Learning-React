@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(298deg, white, gray);
+}
+
+#rootContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  height: 500px;
+  width: 300px;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 15px 25px gray;
+  background: linear-gradient(powderBlue, rgb(231, 237, 238));
+}
+img {
+  height: 70%;
+  width: 100%;
+}
+
+.card p,
+.card h3 {
+  max-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 1.2em;
+  /* max-height: 38px; */
+  /* overflow-y: auto;  /* To display the scrollbar .First set the height and overflow-Y property */
+}
+.card h3 {
+  max-height: 20px;
+  -webkit-line-clamp: 1;
+}

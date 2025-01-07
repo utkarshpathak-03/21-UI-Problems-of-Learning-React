@@ -1,0 +1,1 @@
+In this project , I have tried to display cards after fetching the data from an API using plain Vanilla javascript.
