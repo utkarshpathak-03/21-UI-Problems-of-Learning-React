@@ -1,0 +1,33 @@
+.RootContainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: lightgray;
+  position: relative;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+h2 {
+  left: 405px;
+  position: absolute;
+  top: 300px;
+}
+input {
+  width: 40px;
+}
+
+.error {
+  display: block;
+  color: red;
+  word-spacing: normal;
+  font-size: 12px;
+  position: absolute;
+  right: 500px;
+  top: 420px;
+}
+button {
+  margin-left: 10px;
+}
